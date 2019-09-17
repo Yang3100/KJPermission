@@ -13,8 +13,6 @@
 		68B0658E2330CDE70016F8D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68B0658D2330CDE70016F8D2 /* Assets.xcassets */; };
 		68B065912330CDE70016F8D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68B0658F2330CDE70016F8D2 /* LaunchScreen.storyboard */; };
 		68B065942330CDE70016F8D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B065932330CDE70016F8D2 /* main.m */; };
-		68B0659E2330CDE70016F8D2 /* KJStstemJurisdictionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B0659D2330CDE70016F8D2 /* KJStstemJurisdictionDemoTests.m */; };
-		68B065A92330CDE70016F8D2 /* KJStstemJurisdictionDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B065A82330CDE70016F8D2 /* KJStstemJurisdictionDemoUITests.m */; };
 		68B065CB2330CDFA0016F8D2 /* 系统权限_插画@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68B065B82330CDFA0016F8D2 /* 系统权限_插画@2x.png */; };
 		68B065CC2330CDFA0016F8D2 /* 系统权限_网络@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68B065B92330CDFA0016F8D2 /* 系统权限_网络@3x.png */; };
 		68B065CD2330CDFA0016F8D2 /* 系统权限_定位@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68B065BA2330CDFA0016F8D2 /* 系统权限_定位@2x.png */; };
@@ -36,25 +34,8 @@
 		68B065E02330CF800016F8D2 /* KJPermissionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B065DE2330CF800016F8D2 /* KJPermissionTool.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		68B0659A2330CDE70016F8D2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 68B065792330CDE50016F8D2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 68B065802330CDE50016F8D2;
-			remoteInfo = KJStstemJurisdictionDemo;
-		};
-		68B065A52330CDE70016F8D2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 68B065792330CDE50016F8D2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 68B065802330CDE50016F8D2;
-			remoteInfo = KJStstemJurisdictionDemo;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		68B065812330CDE50016F8D2 /* KJStstemJurisdictionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KJStstemJurisdictionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B065812330CDE50016F8D2 /* KJPermissionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KJPermissionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68B065842330CDE50016F8D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		68B065852330CDE50016F8D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		68B065872330CDE50016F8D2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -64,12 +45,6 @@
 		68B065902330CDE70016F8D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68B065922330CDE70016F8D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68B065932330CDE70016F8D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		68B065992330CDE70016F8D2 /* KJStstemJurisdictionDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KJStstemJurisdictionDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		68B0659D2330CDE70016F8D2 /* KJStstemJurisdictionDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJStstemJurisdictionDemoTests.m; sourceTree = "<group>"; };
-		68B0659F2330CDE70016F8D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		68B065A42330CDE70016F8D2 /* KJStstemJurisdictionDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KJStstemJurisdictionDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		68B065A82330CDE70016F8D2 /* KJStstemJurisdictionDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJStstemJurisdictionDemoUITests.m; sourceTree = "<group>"; };
-		68B065AA2330CDE70016F8D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68B065B82330CDFA0016F8D2 /* 系统权限_插画@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "系统权限_插画@2x.png"; sourceTree = "<group>"; };
 		68B065B92330CDFA0016F8D2 /* 系统权限_网络@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "系统权限_网络@3x.png"; sourceTree = "<group>"; };
 		68B065BA2330CDFA0016F8D2 /* 系统权限_定位@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "系统权限_定位@2x.png"; sourceTree = "<group>"; };
@@ -101,29 +76,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		68B065962330CDE70016F8D2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		68B065A12330CDE70016F8D2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		68B065782330CDE50016F8D2 = {
 			isa = PBXGroup;
 			children = (
-				68B065832330CDE50016F8D2 /* KJStstemJurisdictionDemo */,
-				68B0659C2330CDE70016F8D2 /* KJStstemJurisdictionDemoTests */,
-				68B065A72330CDE70016F8D2 /* KJStstemJurisdictionDemoUITests */,
+				68B065832330CDE50016F8D2 /* KJPermissionDemo */,
 				68B065822330CDE50016F8D2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -131,14 +90,12 @@
 		68B065822330CDE50016F8D2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				68B065812330CDE50016F8D2 /* KJStstemJurisdictionDemo.app */,
-				68B065992330CDE70016F8D2 /* KJStstemJurisdictionDemoTests.xctest */,
-				68B065A42330CDE70016F8D2 /* KJStstemJurisdictionDemoUITests.xctest */,
+				68B065812330CDE50016F8D2 /* KJPermissionDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		68B065832330CDE50016F8D2 /* KJStstemJurisdictionDemo */ = {
+		68B065832330CDE50016F8D2 /* KJPermissionDemo */ = {
 			isa = PBXGroup;
 			children = (
 				68B065DD2330CF800016F8D2 /* 权限工具 */,
@@ -153,25 +110,7 @@
 				68B065922330CDE70016F8D2 /* Info.plist */,
 				68B065932330CDE70016F8D2 /* main.m */,
 			);
-			path = KJStstemJurisdictionDemo;
-			sourceTree = "<group>";
-		};
-		68B0659C2330CDE70016F8D2 /* KJStstemJurisdictionDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				68B0659D2330CDE70016F8D2 /* KJStstemJurisdictionDemoTests.m */,
-				68B0659F2330CDE70016F8D2 /* Info.plist */,
-			);
-			path = KJStstemJurisdictionDemoTests;
-			sourceTree = "<group>";
-		};
-		68B065A72330CDE70016F8D2 /* KJStstemJurisdictionDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				68B065A82330CDE70016F8D2 /* KJStstemJurisdictionDemoUITests.m */,
-				68B065AA2330CDE70016F8D2 /* Info.plist */,
-			);
-			path = KJStstemJurisdictionDemoUITests;
+			path = KJPermissionDemo;
 			sourceTree = "<group>";
 		};
 		68B065B62330CDFA0016F8D2 /* 系统权限 */ = {
@@ -220,9 +159,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		68B065802330CDE50016F8D2 /* KJStstemJurisdictionDemo */ = {
+		68B065802330CDE50016F8D2 /* KJPermissionDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 68B065AD2330CDE70016F8D2 /* Build configuration list for PBXNativeTarget "KJStstemJurisdictionDemo" */;
+			buildConfigurationList = 68B065AD2330CDE70016F8D2 /* Build configuration list for PBXNativeTarget "KJPermissionDemo" */;
 			buildPhases = (
 				68B0657D2330CDE50016F8D2 /* Sources */,
 				68B0657E2330CDE50016F8D2 /* Frameworks */,
@@ -232,46 +171,10 @@
 			);
 			dependencies = (
 			);
-			name = KJStstemJurisdictionDemo;
+			name = KJPermissionDemo;
 			productName = KJStstemJurisdictionDemo;
-			productReference = 68B065812330CDE50016F8D2 /* KJStstemJurisdictionDemo.app */;
+			productReference = 68B065812330CDE50016F8D2 /* KJPermissionDemo.app */;
 			productType = "com.apple.product-type.application";
-		};
-		68B065982330CDE70016F8D2 /* KJStstemJurisdictionDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 68B065B02330CDE80016F8D2 /* Build configuration list for PBXNativeTarget "KJStstemJurisdictionDemoTests" */;
-			buildPhases = (
-				68B065952330CDE70016F8D2 /* Sources */,
-				68B065962330CDE70016F8D2 /* Frameworks */,
-				68B065972330CDE70016F8D2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				68B0659B2330CDE70016F8D2 /* PBXTargetDependency */,
-			);
-			name = KJStstemJurisdictionDemoTests;
-			productName = KJStstemJurisdictionDemoTests;
-			productReference = 68B065992330CDE70016F8D2 /* KJStstemJurisdictionDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		68B065A32330CDE70016F8D2 /* KJStstemJurisdictionDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 68B065B32330CDE80016F8D2 /* Build configuration list for PBXNativeTarget "KJStstemJurisdictionDemoUITests" */;
-			buildPhases = (
-				68B065A02330CDE70016F8D2 /* Sources */,
-				68B065A12330CDE70016F8D2 /* Frameworks */,
-				68B065A22330CDE70016F8D2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				68B065A62330CDE70016F8D2 /* PBXTargetDependency */,
-			);
-			name = KJStstemJurisdictionDemoUITests;
-			productName = KJStstemJurisdictionDemoUITests;
-			productReference = 68B065A42330CDE70016F8D2 /* KJStstemJurisdictionDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -285,17 +188,9 @@
 					68B065802330CDE50016F8D2 = {
 						CreatedOnToolsVersion = 10.3;
 					};
-					68B065982330CDE70016F8D2 = {
-						CreatedOnToolsVersion = 10.3;
-						TestTargetID = 68B065802330CDE50016F8D2;
-					};
-					68B065A32330CDE70016F8D2 = {
-						CreatedOnToolsVersion = 10.3;
-						TestTargetID = 68B065802330CDE50016F8D2;
-					};
 				};
 			};
-			buildConfigurationList = 68B0657C2330CDE50016F8D2 /* Build configuration list for PBXProject "KJStstemJurisdictionDemo" */;
+			buildConfigurationList = 68B0657C2330CDE50016F8D2 /* Build configuration list for PBXProject "KJPermissionDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -308,9 +203,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				68B065802330CDE50016F8D2 /* KJStstemJurisdictionDemo */,
-				68B065982330CDE70016F8D2 /* KJStstemJurisdictionDemoTests */,
-				68B065A32330CDE70016F8D2 /* KJStstemJurisdictionDemoUITests */,
+				68B065802330CDE50016F8D2 /* KJPermissionDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -343,20 +236,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		68B065972330CDE70016F8D2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		68B065A22330CDE70016F8D2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -372,36 +251,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		68B065952330CDE70016F8D2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				68B0659E2330CDE70016F8D2 /* KJStstemJurisdictionDemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		68B065A02330CDE70016F8D2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				68B065A92330CDE70016F8D2 /* KJStstemJurisdictionDemoUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		68B0659B2330CDE70016F8D2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 68B065802330CDE50016F8D2 /* KJStstemJurisdictionDemo */;
-			targetProxy = 68B0659A2330CDE70016F8D2 /* PBXContainerItemProxy */;
-		};
-		68B065A62330CDE70016F8D2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 68B065802330CDE50016F8D2 /* KJStstemJurisdictionDemo */;
-			targetProxy = 68B065A52330CDE70016F8D2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		68B0658A2330CDE50016F8D2 /* Main.storyboard */ = {
@@ -541,7 +391,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A48YQ26WG3;
-				INFOPLIST_FILE = KJStstemJurisdictionDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/KJPermissionDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -558,7 +408,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A48YQ26WG3;
-				INFOPLIST_FILE = KJStstemJurisdictionDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/KJPermissionDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -569,84 +419,10 @@
 			};
 			name = Release;
 		};
-		68B065B12330CDE80016F8D2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A48YQ26WG3;
-				INFOPLIST_FILE = KJStstemJurisdictionDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ykj.KJStstemJurisdictionDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KJStstemJurisdictionDemo.app/KJStstemJurisdictionDemo";
-			};
-			name = Debug;
-		};
-		68B065B22330CDE80016F8D2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A48YQ26WG3;
-				INFOPLIST_FILE = KJStstemJurisdictionDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ykj.KJStstemJurisdictionDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KJStstemJurisdictionDemo.app/KJStstemJurisdictionDemo";
-			};
-			name = Release;
-		};
-		68B065B42330CDE80016F8D2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A48YQ26WG3;
-				INFOPLIST_FILE = KJStstemJurisdictionDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ykj.KJStstemJurisdictionDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = KJStstemJurisdictionDemo;
-			};
-			name = Debug;
-		};
-		68B065B52330CDE80016F8D2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A48YQ26WG3;
-				INFOPLIST_FILE = KJStstemJurisdictionDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ykj.KJStstemJurisdictionDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = KJStstemJurisdictionDemo;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		68B0657C2330CDE50016F8D2 /* Build configuration list for PBXProject "KJStstemJurisdictionDemo" */ = {
+		68B0657C2330CDE50016F8D2 /* Build configuration list for PBXProject "KJPermissionDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				68B065AB2330CDE70016F8D2 /* Debug */,
@@ -655,29 +431,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		68B065AD2330CDE70016F8D2 /* Build configuration list for PBXNativeTarget "KJStstemJurisdictionDemo" */ = {
+		68B065AD2330CDE70016F8D2 /* Build configuration list for PBXNativeTarget "KJPermissionDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				68B065AE2330CDE70016F8D2 /* Debug */,
 				68B065AF2330CDE70016F8D2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		68B065B02330CDE80016F8D2 /* Build configuration list for PBXNativeTarget "KJStstemJurisdictionDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				68B065B12330CDE80016F8D2 /* Debug */,
-				68B065B22330CDE80016F8D2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		68B065B32330CDE80016F8D2 /* Build configuration list for PBXNativeTarget "KJStstemJurisdictionDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				68B065B42330CDE80016F8D2 /* Debug */,
-				68B065B52330CDE80016F8D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,4 +1,4 @@
-# KJStstemJurisdictionDemo
+# KJPermissionDemo
 一款权限工具，用什么就直接去里面提炼出来就完事 
 <p align="left">
   <img width="200" src="Res/5715.jpg" hspace="30px" />
